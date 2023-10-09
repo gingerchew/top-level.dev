@@ -14,6 +14,7 @@ eleventyNavigation:
       <label for="search">Search list</label>
       <input type="search" @input="search" id="search" />
     </search>
+    <ul class="pagination" v-scope="Pagination()"></ul>
     <ul class="domains" role="list" id="$list" v-scope="Domains()">
       <noscript>
       {% for domain in domains %}
