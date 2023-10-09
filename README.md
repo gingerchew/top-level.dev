@@ -12,3 +12,4 @@ Easy access to a *probably* complete list of all the available top level domains
 ## TODO
 
 - [ ] Process .xn-- domains to match their *actual* characters
+- [x] Add filter/pagination
