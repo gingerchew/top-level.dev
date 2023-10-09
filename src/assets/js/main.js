@@ -1,4 +1,4 @@
-import { createApp } from 'https://esm.sh/petite-vue';
+import { createApp } from 'petite-vue';
 
 function Domains() {
     return {
