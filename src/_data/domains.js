@@ -13,16 +13,10 @@ module.exports = async function() {
         duration: '1y',
         type: 'text'
     });
-    data = pipe(
+    
+    return pipe(
         trim,
         removeDate,
         transformDomain,
-    )(data);/*
-    data = data.trim();
-    data = data.replace(/\#.*UTC/g, '');
-    data = data.trim().split(' ').map(domain => `.${domain.toLowerCase()}`);
-    data = data.join(' ');
-    data = data.replace(/\n/g, '<br />');
-    // console.log(data);*/
-    return data;
+    )(data);
 }
