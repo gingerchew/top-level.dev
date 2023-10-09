@@ -12,4 +12,5 @@ Easy access to a *probably* complete list of all the available top level domains
 ## TODO
 
 - [ ] Process .xn-- domains to match their *actual* characters
+    - [StackOverflow answer](https://stackoverflow.com/questions/183485/converting-punycode-with-dash-character-to-unicode/301287#301287)
 - [x] Add filter/pagination
