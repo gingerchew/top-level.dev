@@ -34,7 +34,7 @@ createApp({
         return this._domains.filter(d => d.toLowerCase().indexOf(this._search) > -1);
     },
     search({ target }) {
-        this._search = target.value;
+        this._search = target.value.toLowerCase();
     },
     Domains,
     Pagination,
