@@ -1,12 +1,27 @@
 a {
-    color: var(--primaryColor);
+    color: var(--textColor);
     text-decoration: underline;
-
     &:hover {
         // 
+        color: var(--primaryColor);
     }
     svg {
         display: inline-block;
         fill: currentColor;
     }
+}
+
+.nav > a {
+    font-weight: 700;
+    text-decoration-color: transparent;
+    font-size: var(--fluid-0);
+    transition: text-decoration-color 0.25s ease;
+    &:hover {
+        filter: contrast(1.1);
+        text-decoration-color: currentColor;
+    }
+}
+
+.direct-link {
+    font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,3 +1,11 @@
 /**
  * Global settings
  */
+
+[role="list"] {
+  list-style-type: none;
+}
+
+[v-cloak] {
+  display: none;
+}
