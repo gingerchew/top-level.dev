@@ -11,10 +11,13 @@ eleventyNavigation:
   </script>
   <section class="list">
     <search>
-      <label for="search">Search list</label>
+      <label for="search">Search</label>
       <input type="search" @input="search" id="search" />
     </search>
-    <ul class="pagination" v-scope="Pagination()"></ul>
+    <details>
+      <summary>Filter</summary>
+      <ul class="pagination" v-scope="Pagination()"></ul>
+    </details>
     <ul class="domains" role="list" id="$list" v-scope="Domains()">
       <noscript>
       {% for domain in domains %}

@@ -18,8 +18,15 @@ input {
         background-color: #efefff;
     }
 }
-
 search {
     padding-bottom: 2rem;
     display: block;
+    &:has(+ details) {
+        padding-bottom: 0.5ch;
+    }
+}
+
+input,
+label {
+    font-weight: 900;
 }
