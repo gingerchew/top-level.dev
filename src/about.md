@@ -24,4 +24,4 @@ Due to *reasons* characters outside of the `[A-Za-z0-9]-_` group are not exactly
 - [11ty](https://www.11ty.dev/) by Zach Leatherman
 - [Eleventy plus Vite](https://eleventyplusvite.netlify.app/) template by Matthias Ott
 - [Plausible analytics](https://plausible.io)
-- [Petite Vue](https://github.com/vuejs/petite-vue);
+- [Petite Vue](https://github.com/vuejs/petite-vue)
