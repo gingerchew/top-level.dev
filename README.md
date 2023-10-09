@@ -4,13 +4,13 @@
 
 Easy access to a *probably* complete list of all the available top level domains.
 
-## Tech Used
+## [Tech Used](https://top-level.dev/about/)
 
-- 11ty by Zach Leatherman
-- Eleventy plus Vite by Matthias Ott
+
 
 ## TODO
 
 - [ ] Process .xn-- domains to match their *actual* characters
     - [StackOverflow answer](https://stackoverflow.com/questions/183485/converting-punycode-with-dash-character-to-unicode/301287#301287)
 - [x] Add filter/pagination
+- [ ] More responsive solution for filter (26 buttons isn't exactly mobile friendly)
