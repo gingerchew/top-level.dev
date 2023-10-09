@@ -1,7 +1,5 @@
 import { createApp } from 'petite-vue';
-import { juhla } from 'juhla'
 
-const _ = juhla();
 function Pagination() {
     const _alpha = 'abcdefghijklmnopqrstuvwxyz'.split('');
     return {
